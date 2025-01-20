@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .full-height {
+            height: 100vh;
+        }
+        #box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+
+        .align-items-center
+        {
+            align-items: center;
+        }
+
+        .justify-content-center
+        {
+            justify-content: center;
+        }
+
+        .flex-column {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        #box:hover {
+            background-color: red;
+            transition: background-color 1s ease-in-out;
+        }
+    </style>
+</head>
+<body class="full-height ">
+    <div class="d-flex align-items-center justify-content-center full-height flex-column">
+        <img id="box">
+
+        <div>
+            <input id="input" onchange="changeColor()" type="text">
+            <button onclick="   ()">Change</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

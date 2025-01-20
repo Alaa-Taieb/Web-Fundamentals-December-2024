@@ -1,0 +1,56 @@
+/* Element Selectors */
+/* S: 1 */
+/* body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+}
+
+/* Class Selectors */
+/* S: 10 */
+/* .highlight {
+    color: rgb(0, 47, 255)!important;
+}
+
+.bigtext {
+    font-size: 3rem;
+}
+
+/* ID Selectors */
+/* S: 100 */
+/* #special {
+    background-color: black;
+    color: red;
+}  */
+
+
+/* 
+selector {
+    css-property-name: value;
+}
+
+*/
+
+/* Text Alignment */
+h1 {
+    text-align: center;
+}
+
+/* Width and Height */
+#box {
+    width: 800px;
+    height: 200px;
+    display: inline-block;
+    /* box-sizing: border-box; */
+    /* background-color: blueviolet; */
+}
+
+/* Border */
+#box {
+    background-color: red;
+    padding: 25px;
+    border: 10px solid black;
+    margin: 25px;
+}

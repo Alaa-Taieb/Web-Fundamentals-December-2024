@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gaming Dojo</title>
+</head>
+<body>
+    <!-- Page Header -->
+    <header>
+        <div>
+            <!-- Logo -->
+            <h1 id="logo">Gaming<span>Dojo</span></h1>
+            <!-- Menu Container -->
+            <div class="menu_container">
+                <select name="" id="">
+                    <option value="Euro">Euro</option>
+                    <option value="Dollar">Dollar</option>
+                    <option value="Pound">Pound</option>
+                </select>
+                <!-- Shopping Cart Container -->
+                <div class="shopping_container">
+                    <img class="icon" src="/assets/shopping_cart.png" alt="Shopping Cart">
+                    <span id="cart_value">0</span>
+                </div>
+                <!-- Magnifying Glass -->
+                <img class="icon" src="/assets/magnifying_glass.png" alt="Magnifying Glass">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Part -->
+    <main>
+        <div>
+            <!-- Top Part -->
+            <div class="top-part">
+                <h3>Highlights</h3>
+                <!-- Images -->
+                <div class="slideshow">
+                    <!-- Left Arrow -->
+                    <div>
+                        <img src="/assets/left_arrow.png" alt="" onclick="move(-1)">
+                    </div>
+                    <img id="main_image" src="/assets/banner_2.png" alt="">
+                    <!-- Right Arrow -->
+                    <div>
+                        <img id="right_arrow" src="/assets/left_arrow.png" alt="" onclick="move(1)">
+                    </div>
+                </div>
+                <!-- Indicators -->
+                <div class="indicators_container">
+                    <div>
+                        <div class="indicator"></div>
+                        <div class="indicator highlighted"></div>
+                        <div class="indicator"></div>
+                        <div class="indicator"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Part -->
+            <div class="bottom-part">
+                <!-- 1st Card -->
+                <div class="card">
+                    <img src="/assets/banner_1.png" alt="Card Image 1">
+                    <div>
+                        <h3>Cafe Neko: Gold Edition</h3>
+                        <!-- OS Container -->
+                        <div>
+                            <img class="icon" src="/assets/apple.png" alt="">
+                            <img class="icon" src="/assets/windows.png" alt="">
+                        </div>
+                        <!-- Action Part -->
+                        <div class="action-container">
+                            <!-- Discount -->
+                            <div class="discount">
+                                -20%
+                            </div>
+                            <!-- Prices Container -->
+                            <div class="prices">
+                                <span class="original-price">$14.98</span>
+                                <span class="price">$10.49</span>
+                            </div>
+
+                            <button onclick="buy()">Buy</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1st Card -->
+                <div class="card">
+                    <img src="/assets/banner_1.png" alt="Card Image 1">
+                    <div>
+                        <h3>Cafe Neko: Gold Edition</h3>
+                        <!-- OS Container -->
+                        <div>
+                            <img class="icon" src="/assets/apple.png" alt="">
+                            <img class="icon" src="/assets/windows.png" alt="">
+                        </div>
+                        <!-- Action Part -->
+                        <div class="action-container">
+                            <!-- Discount -->
+                            <div class="discount">
+                                -20%
+                            </div>
+                            <!-- Prices Container -->
+                            <div class="prices">
+                                <span class="original-price">$14.98</span>
+                                <span class="price">$10.49</span>
+                            </div>
+
+                            <button onclick="buy()">Buy</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1st Card -->
+                <div class="card">
+                    <img src="/assets/banner_1.png" alt="Card Image 1">
+                    <div>
+                        <h3>Cafe Neko: Gold Edition</h3>
+                        <!-- OS Container -->
+                        <div>
+                            <img class="icon" src="/assets/apple.png" alt="">
+                            <img class="icon" src="/assets/windows.png" alt="">
+                            <img class="icon" src="/assets/linux.png" alt="" onclick="alert('This game is supported on Linux.')">
+                        </div>
+                        <!-- Action Part -->
+                        <div class="action-container">
+                            <!-- Discount -->
+                            <div class="discount">
+                                -20%
+                            </div>
+                            <!-- Prices Container -->
+                            <div class="prices">
+                                <span class="original-price">$14.98</span>
+                                <span class="price">$10.49</span>
+                            </div>
+
+                            <button onclick="buy()">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Import The Script -->
+    <script src="script.js"></script>
+</body>
+</html>
